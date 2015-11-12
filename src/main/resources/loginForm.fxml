@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<Pane prefHeight="212.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UIController">
+   <children>
+      <Label alignment="CENTER" layoutX="25.0" layoutY="6.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="17.0" prefWidth="209.0" text="Please sign in" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <AnchorPane prefHeight="212.0" prefWidth="260.0">
+         <children>
+            <Button fx:id="submitLoginButton" alignment="CENTER" contentDisplay="CENTER" layoutY="145.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#SubmitLoginButtonClick" prefHeight="39.0" prefWidth="200.0" text="Submit" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <tooltip>
+                  <Tooltip text="Woop Woop an easter egg!" />
+               </tooltip>
+            </Button>
+            <Label fx:id="registerErrorLabel" layoutX="14.0" layoutY="156.0" text="Error label text!" textFill="RED" visible="false" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="usernameLoginField" alignment="CENTER" layoutX="18.0" layoutY="50.0" prefHeight="25.0" prefWidth="225.0" promptText="Username..." scaleShape="false" />
+      <PasswordField fx:id="passwordLoginField" alignment="CENTER" layoutX="18.0" layoutY="100.0" prefHeight="25.0" prefWidth="225.0" promptText="Password..." scaleShape="false" />
+   </children>
+</Pane>

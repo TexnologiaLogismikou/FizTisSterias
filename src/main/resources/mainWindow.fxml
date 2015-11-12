@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<BorderPane maxHeight="750.0" maxWidth="546.0" minHeight="283.0" minWidth="252.0" prefHeight="502.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UIController">
+   <top>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="65.0" prefWidth="301.0" BorderPane.alignment="CENTER">
+         <children>
+            <ToolBar layoutY="-6.0" prefHeight="47.0" prefWidth="385.0" style="-fx-background-color: yellow;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <items>
+                <Button fx:id="signInButton" mnemonicParsing="false" onMouseClicked="#SignInButtonClick" text="Sign In" />
+                  <Button fx:id="signUpButton" mnemonicParsing="false" onMouseClicked="#SignUpButtonClick" text="Sign Up" />
+                  <Label fx:id="loggedAsLabel" text="Logged in as " visible="false"/>
+                  <Button fx:id="signOutButton" mnemonicParsing="false" onMouseClicked="#SignOutButtonClick" text="Button" visible="false"/>
+              </items>
+            </ToolBar>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="393.0" prefWidth="496.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="111.0" layoutY="125.0" prefHeight="184.0" prefWidth="290.0" text="SOMETHING WILL SHOW UP SOMETIME HERE" textFill="#54009e" wrapText="true" AnchorPane.bottomAnchor="128.0" AnchorPane.leftAnchor="111.0" AnchorPane.rightAnchor="145.0" AnchorPane.topAnchor="125.0">
+               <font>
+                  <Font name="System Italic" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

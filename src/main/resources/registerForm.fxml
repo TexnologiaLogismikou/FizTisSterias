@@ -3,11 +3,15 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<Pane prefHeight="212.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UIController">
+<Pane xmlns:fx="http://javafx.com/fxml/1" prefHeight="212.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/8"
+      fx:controller="FormControllers.RegisterFormController">
    <children>
       <AnchorPane prefHeight="212.0" prefWidth="260.0">
          <children>
-            <Button fx:id="submitRegisterButton" alignment="CENTER" contentDisplay="CENTER" layoutY="145.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onMouseClicked="#SubmitRegisterButtonClick" prefHeight="39.0" prefWidth="200.0" text="Submit" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <Button alignment="CENTER" contentDisplay="CENTER" layoutY="145.0" maxHeight="1.7976931348623157E308"
+                    maxWidth="1.7976931348623157E308" mnemonicParsing="false"
+                    onMouseClicked="#SubmitRegisterButtonClick" prefHeight="39.0" prefWidth="200.0" text="Submit"
+                    AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                <tooltip>
                   <Tooltip text="Woop Woop an easter egg!" />
                </tooltip>

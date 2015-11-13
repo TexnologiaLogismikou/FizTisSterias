@@ -1,0 +1,10 @@
+Main-Class: Main
+Manifest-Version: 1.0
+
+Name: Fiz
+Specification-Title: Fiz app
+Specification-Version: 0
+Specification-Vendor: YOU SHAL NOT PASS
+Implementation-Title: FizApp
+Implementation-Version: build1
+Implementation-Vendor: YOU SHAL NOT PASS
